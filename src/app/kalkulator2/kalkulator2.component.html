@@ -1,0 +1,18 @@
+
+
+   <label for="liczba">Podaj liczby</label>
+<input type="number" name="liczba" id="liczba" [(ngModel)] = zmienna>
+<input type="number" name="liczba" id="liczba" [(ngModel)] = zmienna2>
+<br>
+<button (click)="dodaj()">dodaj</button>
+<br>
+<button (click)="odejmij()">minus</button>
+<br>
+<button (click)="podziel()">dzielenie</button>
+<br>
+<button (click)="pomnoz()">mnozenie</button>
+<br>
+<p *ngIf="klikniete">Wynik:{{wynik}}</p>
+
+
+
